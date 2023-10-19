@@ -1,11 +1,11 @@
 
 
 
-h1 {
+h1{
     font-family: Arial, sans-serif;
     font-size: 1.8em;
 }
-h2 {
+h2{
     font-family: Arial, sans-serif;
     font-size: 1.5em;
 }
@@ -13,15 +13,26 @@ h3 {
     font-family: Arial, sans-serif;
     font-size: 1.4em;
 }
-
-p.paragraaf_h1_kleur {
+p {
+    font-family:"Times New Roman",serif;
+    font-size: 1.2em;
+}
+p.paragraaf_h1_kleur{
     color: red;
 }
 
-p.paragraaf_h1_kleur {
+p.paragraaf_h2_kleur{
     color:green;
 }
 
-p.paragraaf_h1_kleur {
+p.paragraaf_h3_kleur{
     color:blue;
+}
+
+p.test1{
+    font-size: 2ex;
+}
+
+p.test2{
+    font-size: 2em;
 }
