@@ -1,0 +1,27 @@
+
+
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 1.8em;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+p.paragraaf_h1_kleur {
+    color: red;
+}
+
+p.paragraaf_h1_kleur {
+    color:green;
+}
+
+p.paragraaf_h1_kleur {
+    color:blue;
+}
