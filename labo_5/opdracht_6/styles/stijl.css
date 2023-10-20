@@ -28,11 +28,3 @@ p.paragraaf_h2_kleur{
 p.paragraaf_h3_kleur{
     color:blue;
 }
-
-p.test1{
-    font-size: 2ex;
-}
-
-p.test2{
-    font-size: 2em;
-}
