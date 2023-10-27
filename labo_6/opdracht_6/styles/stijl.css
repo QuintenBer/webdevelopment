@@ -4,8 +4,7 @@ li{
     background-repeat: no-repeat;
     padding-left: 23px;
     margin-top: 20px;
-    margin-left: -30px;
-    list-style-type: none;
+    margin-bottom: 20px;
 
 }
 .checked{
@@ -13,5 +12,8 @@ li{
     background-size: 15px;
     background-repeat: no-repeat;
     padding-left: 20px;
-    margin-top: 20px;
+}
+.checklist{
+    list-style-type: none;
+
 }
