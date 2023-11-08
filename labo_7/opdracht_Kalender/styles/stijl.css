@@ -1,0 +1,37 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr:first-child td{
+    border: 1px dotted rgb(200,190,240);
+
+}
+td{
+    border: 1px dotted black;
+
+}
+thead{
+    background-color: rgb(170,170,200);
+}
+
+
+.vrijeDag{
+    background-color:  rgb(250,120,120);
+}
+
+td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+
+#naamDagen{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+tr td.andereMaand{
+    background-color: #cfd1d4;
+    color: #b0b3b8;
+}
+a:link,a:visited,a:active,a:hover{
+    color: blue;
+}

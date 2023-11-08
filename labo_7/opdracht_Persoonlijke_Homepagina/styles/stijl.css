@@ -1,0 +1,80 @@
+/*css voor foto*/
+.FotoEltonJohn{
+    height: 183px;
+}
+/*css voor 'basis''*/
+body {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #1d1e22;
+}
+header {
+background-color: #393f4d;
+}
+h1{
+    color: #feda6a;
+    font-size: 2.5em;
+}
+h2, h3{
+    color: #feda6a;
+    font-family: Verdana,sans-serif;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1em;
+}
+h1,h2,h3 {
+    margin-left: 20px;
+}
+
+section, table, footer{
+    background-color: #393f4d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*css voor tekstkleur*/
+li,p,td,th,caption{
+    color: #d4d4dc;
+}
+/*css voor tabel*/
+li {
+    font-family: Arial,sans-serif;
+    margin-left: 35px;
+}
+td{
+    text-align: center;
+}
+table {
+    margin-left: 20px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #feda6a;
+}
+td:first-child {
+    padding-right: 140px;
+}
+col:first-child{
+    width: 30%;
+}
+col{
+    width: 10%;
+}
+/*css voor footer*/
+footer h2, footer p{
+    margin-left: 20px;
+}
+footer p{
+    padding-bottom: 20px;
+}
+/*css voor links*/
+a:link {
+    color: #feda6a;
+}
+a:visited {
+     color: #a89a1b;
+ }
