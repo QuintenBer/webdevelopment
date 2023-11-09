@@ -19,14 +19,11 @@ thead{
     background-color:  rgb(250,120,120);
 }
 
-td:first-child{
+td:first-child, td:last-child{
     background-color: rgb(255, 220, 220);
 }
 
-#naamDagen{
-    background-color: rgb(35,37,70);
-    color: rgb(200,190,240);
-}
+
 
 tr td.andereMaand{
     background-color: #cfd1d4;
@@ -34,4 +31,8 @@ tr td.andereMaand{
 }
 a:link,a:visited,a:active,a:hover{
     color: blue;
+}
+#naamDagen td{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
 }
