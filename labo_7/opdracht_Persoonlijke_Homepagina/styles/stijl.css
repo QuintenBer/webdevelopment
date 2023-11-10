@@ -99,10 +99,9 @@ a:visited {
 .tabel2 {
     font: normal 12px/150% Times New Roman, Times, serif;
     overflow: hidden;
-
-    .tabel2 tbody tr {
+}
+    table{
         border: 5px solid #6CCC8C;
-    }
 }
 
 
@@ -149,3 +148,6 @@ a:visited {
 .tabel2 tbody tr:last-child td {
     border-bottom: none;
 }
+
+
+
