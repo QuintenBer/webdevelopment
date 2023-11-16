@@ -1,0 +1,102 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+p, li, footer{
+    font-family: Verdana, Helvetica, Arial;
+
+}
+p, li {
+    font-size: 1.2em;
+}
+footer{
+    font-size: 0.6em;
+}
+h1, h2 {
+    color: #007e7e;
+    text-align:left;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+font-size: 130%
+}
+.kolomWeeklySpecials h1{
+    color: black;
+}
+.kolomWeeklySpecials .lemon_drankje{
+    color: darkgoldenrod;
+}
+.kolomWeeklySpecials .chai_drankje{
+    color: saddlebrown;
+}
+.kolomWeeklySpecials .black_brain_drankje{
+    color: darkred;
+}
+.kolomWeeklySpecials a:hover{
+    background-color: saddlebrown;
+}
+
+
+
+
+section{
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+}
+.kolomWeeklySpecials{
+    width: 30%;
+    box-sizing: border-box;
+    float: right;
+    border: 1px solid #a7cece;
+    background-image: url("../../images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+footer{
+
+    clear: both;
+    text-align: center;
+}
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 4px dotted white;
+    position: relative;
+    /*background-image: url("../../images/background.gif");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-size: 65px;
+    */
+
+}
+#guarantee img{
+    position: relative;
+    top:-20px;
+    left: -15px;
+    float: left;
+    background-size: 30px;
+}
+ a:link{
+    color: #444444;
+}
+
+.kolomWeeklySpecials p,.kolomWeeklySpecials h1,.kolomWeeklySpecials h2{
+    text-align: center;
+}
+.kolomWeeklySpecials img{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
