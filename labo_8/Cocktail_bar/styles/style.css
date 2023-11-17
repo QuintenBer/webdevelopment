@@ -50,7 +50,7 @@ section{
     width: 30%;
     box-sizing: border-box;
     float: right;
-    border: 1px solid #a7cece;
+    border: 3px solid #a7cece;
     background-image: url("../../images/cocktail.gif");
     background-repeat: repeat-x;
 }
