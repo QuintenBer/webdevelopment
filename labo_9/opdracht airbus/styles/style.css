@@ -1,0 +1,64 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+.top{
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.top img{
+    position: absolute;
+    right: 90px;
+    top: 100px;
+}
+.top p{
+    color: darkblue;
+}
+.top p:first-of-type{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+.top p:last-of-type{
+    font-size: 240%;
+    font-style: italic;
+}
+
+.news{
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    display: inline-block;
+    box-sizing: border-box;
+    float: right;
+}
+.news p{
+    color: #666666;
+    font-size: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.news h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+.main{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 75%;
+    padding-right: 10px;
+}
+
+.introduction{
+    background-color: white;
+}
+.introduction p{
+    color: black;
+    text-align: justify;
+}
