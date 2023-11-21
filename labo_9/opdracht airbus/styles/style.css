@@ -57,8 +57,66 @@ body{
 
 .introduction{
     background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
 }
 .introduction p{
     color: black;
     text-align: justify;
+    display: inline-block;
+
+}
+
+.logo{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10%;
+
+}
+.introduction{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70%;
+}
+.introduction span{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+.gallery{
+    background-color: #999999;
+    padding: 10px;
+}
+.foto img{
+    width: 180px;
+    height: 180px;
+}
+.foto{
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted #999999;
+    display: inline-block;
+    background-color: white;
+}
+
+.bottom{
+    background-color: #666666;
+    line-height: 2em;
+}
+.bottom li{
+    color: white;
+}
+.bottom a:hover{
+    color: red;
+}
+.bottom div{
+    display: inline-block;
+    margin-left: 120px;
+}
+.copyright{
+    text-align: center;
+    color: black;
 }
