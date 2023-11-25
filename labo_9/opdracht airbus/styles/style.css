@@ -2,32 +2,32 @@ body{
     width: 95%;
     margin: 0 auto;
 }
-.top{
+header{
     height: 200px;
     background-image: url("../images/bgsky3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
-.top img{
+header img{
     position: absolute;
     right: 90px;
     top: 100px;
 }
-.top p{
+header p{
     color: darkblue;
 }
-.top p:first-of-type{
+header p:first-of-type{
     font-size: 300%;
     font-style: italic;
     font-weight: bold;
 }
-.top p:last-of-type{
+header p:last-of-type{
     font-size: 240%;
     font-style: italic;
 }
 
-.news{
+aside{
     width: 25%;
     background-color: #dddddd;
     border: 1px solid #999999;
@@ -35,13 +35,13 @@ body{
     box-sizing: border-box;
     float: right;
 }
-.news p{
+aside p{
     color: #666666;
     font-size: 90%;
     padding-right: 10px;
     padding-left: 10px;
 }
-.news h3{
+aside h3{
     color: white;
     background-color: blue;
     font-size: 120%;
@@ -118,7 +118,7 @@ body{
     margin-left: 120px;
 }
 
-.copyright{
+footer{
     text-align: center;
     color: black;
 }
