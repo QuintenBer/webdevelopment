@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     background-color: #1d1e22;
 }
-header {
+header, main article:first-of-type{
 background-color: #393f4d;
 }
 h1{
