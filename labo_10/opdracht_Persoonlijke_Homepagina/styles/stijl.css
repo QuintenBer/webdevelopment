@@ -1,0 +1,156 @@
+/*css voor foto*/
+.FotoEltonJohn{
+    height: 183px;
+}
+/*css voor 'basis''*/
+body {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #1d1e22;
+}
+header {
+background-color: #393f4d;
+}
+h1{
+    color: #feda6a;
+    font-size: 2.5em;
+}
+h2, h3{
+    color: #feda6a;
+    font-family: Verdana,sans-serif;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1em;
+}
+h1,h2,h3,p {
+    margin-left: 20px;
+}
+p{
+    font-family: Arial,sans-serif;
+}
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+section, table, footer{
+    background-color: #393f4d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*css voor tekstkleur*/
+li,p,td,th,caption{
+    color: #d4d4dc;
+}
+/*css voor tabel*/
+.table li {
+    font-family: Arial,sans-serif;
+    margin-left: 35px;
+}
+.table td{
+    text-align: center;
+}
+.table table {
+    margin-left: 20px;
+}
+.table ,th, tr, td{
+    border-collapse: collapse;
+    border: 1px solid #feda6a;
+}
+
+.table td:first-child {
+    padding-right: 140px;
+}
+.table col:first-child{
+    width: 20%;
+}
+.table col{
+    width: 10%;
+}
+/*css voor footer*/
+footer h2, footer p{
+    margin-left: 20px;
+}
+footer p{
+    padding-bottom: 20px;
+}
+/*css voor links*/
+a:link {
+    color: #feda6a;
+}
+a:visited {
+     color: #a89a1b;
+ }
+/*tweedetabel*/
+.tabel2 table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 95%;
+    margin:0 auto;
+    background-color: white;
+    border: 5px solid #6CCC8C;
+}
+
+.tabel2 {
+    font: normal 12px/150% Times New Roman, Times, serif;
+    overflow: hidden;
+}
+    table{
+        border: 5px solid #6CCC8C;
+}
+
+
+
+.tabel2 table td, table th {
+    padding: 13px 20px;
+}
+
+.tabel2 table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1F4219), color-stop(1, #88CF90));
+    background: -moz-linear-gradient(#1F4219 5%, #88CF90 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1F4219', endColorstr='#88CF90');
+    background-color: #1F4219;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 3px solid #C6FFC2;
+    border-bottom: 1px solid transparent;
+}
+
+.tabel2 table thead th:first-child {
+    border: 1px solid transparent;
+}
+
+.tabel2 table tbody td, .tabel2 table tbody th {
+    color: #275420;
+    border-left: 3px solid #C6FFC2;
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+
+}
+
+.tabel2 table tbody .alt td, .tabel2 table tbody .alt th  {
+    background: #D9F4E0;
+    color: #275420;
+}
+
+.tabel2 table tbody td:first-child {
+    border-left: none;
+}
+
+.tabel2 tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+
+
