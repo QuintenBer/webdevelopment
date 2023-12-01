@@ -42,9 +42,9 @@
     background-color: rgb(242, 224, 122);
 }
 
-.col-md-1, .col-md-3, .col-md-4,.col-md-8, .col-md-9{
+.col-1, .col-3, .col-4,.col-8, .col-9{
     padding-left: 0px;
 }
-.col-md-3{
+.col-3{
     padding-right: 0px;
 }
