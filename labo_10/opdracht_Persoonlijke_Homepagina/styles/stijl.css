@@ -9,7 +9,8 @@ body {
     background-color: #1d1e22;
 }
 header, main article:first-of-type{
-background-color: #393f4d;
+    background-color: #393f4d;
+    margin-top: 20px;
 }
 /*document van Quinten Bernard-*/
 h1{
