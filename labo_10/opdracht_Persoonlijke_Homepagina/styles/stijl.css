@@ -10,7 +10,10 @@ body {
 }
 header, main article:first-of-type{
     background-color: #393f4d;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*document van Quinten Bernard-*/
 h1{
