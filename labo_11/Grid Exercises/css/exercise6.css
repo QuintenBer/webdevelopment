@@ -68,7 +68,7 @@ main .block{
         grid-row-start: 2;
         grid-row-end: 3;
     }
-    
+
 }
 @media screen and (min-width: 993px){
     main{
