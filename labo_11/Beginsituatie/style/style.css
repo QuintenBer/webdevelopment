@@ -1,6 +1,6 @@
 /* items */
 
-section div {
+.container div {
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ section div {
     background: #4464a1;
 }
 
-section{
+.container{
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(4,auto);
@@ -93,7 +93,7 @@ section{
 }
 @media screen and (min-width: 760px) {
 
-    section {
+    .container {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: repeat(3, auto);
     }
