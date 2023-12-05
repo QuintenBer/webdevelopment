@@ -44,12 +44,6 @@ main .block{
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    .block.block4{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
 }
 @media screen and (min-width: 773px) and (max-width: 992px){
     main{
@@ -74,12 +68,7 @@ main .block{
         grid-row-start: 2;
         grid-row-end: 3;
     }
-    .block.block4{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
+    
 }
 @media screen and (min-width: 993px){
     main{
