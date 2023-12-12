@@ -1,0 +1,89 @@
+html {
+    background-color: #333;
+    font-family: helvetica, sans-serif;
+}
+
+* {
+    padding: 10px;
+}
+header, footer{
+    background-color: #ddaa00;
+}
+nav a:link, nav a:visited{
+    color: #ddaa00;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: #ccc;
+    padding: 5px 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+main{
+    background-color: grey;
+}
+body{
+    font-size: 1em;
+    margin: 5px;
+}
+section{
+    margin: 5px;
+}
+nav a{
+    background-color: white;
+    margin: 0 5px;
+    border: 1px solid black;
+    padding-left: 37px;
+    padding-right: 37px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 1px;
+    flex-wrap: wrap;
+
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+img{
+    padding: 0;
+
+}
+section a{
+    border: 1px solid #333;
+}
+main >section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+section a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+section a:link, section a:visited{
+    color: grey;
+}
+@media screen and (min-width: 700px){
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
