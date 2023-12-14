@@ -29,7 +29,7 @@ body{
     font-size: 1em;
     margin: 5px;
 }
-section{
+div{
     margin: 5px;
 }
 nav a{
@@ -58,21 +58,21 @@ img{
     padding: 0;
 
 }
-section a{
+div a{
     border: 1px solid #333;
 }
-main >section{
+main >div{
     background-color: white;
     display: flex;
     flex-direction: column;
 
 }
-section a{
+div a{
     text-decoration: none;
     display: flex;
     justify-content: center;
 }
-section a:link, section a:visited{
+div a:link, div a:visited{
     color: grey;
 }
 @media screen and (min-width: 700px){
