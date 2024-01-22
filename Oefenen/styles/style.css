@@ -80,3 +80,8 @@ nav a{
 nav a:visited{
     color: white;
 }
+footer{
+    clear: both ;
+
+    text-align: center;
+}

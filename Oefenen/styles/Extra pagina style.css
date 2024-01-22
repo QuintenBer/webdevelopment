@@ -10,9 +10,6 @@ header{
     padding-bottom: 100px;
     height: 100px;
     background-size: cover;
-
-
-
 }
 
 
@@ -79,6 +76,22 @@ div:last-of-type{
     align-items: center;
     margin: 0 auto;
     border: 0 solid black;
+}
+nav{
+    border: 3px solid lightgreen;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 2em;
+}
+
+nav a{
+    background-color: grey;
+    color: white;
+    margin-left: 40px;
+}
+nav a:visited{
+    color: white;
 }
 @media screen and (min-width: 1020px){
     .container{
