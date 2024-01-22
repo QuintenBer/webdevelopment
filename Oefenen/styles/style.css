@@ -1,0 +1,82 @@
+body{
+    background-color: slategray;
+    width: 95%;
+    margin: 0 auto;
+
+}
+h1{
+    font-size: 5em;
+    color: lightgreen;
+    background-image: url('../Images/Spotify_icon.svg.png');
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    padding-left: 100px;
+}
+header{
+    padding: 20px;
+}
+section,aside{
+    background-color: lightslategrey;
+    border: 3px solid palegreen;
+
+}
+
+h2{
+    color: lightgreen;
+}
+table, th, td{
+    border: 3px solid white;
+    border-collapse: collapse;
+
+}
+th, td{
+    padding: 10px;
+}
+th{
+    background-color: lightgreen;
+}
+table{
+    margin:  20px;
+}
+tbody tr:nth-of-type(3) td:last-of-type{
+    background-color: lightgreen;
+}
+.links{
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+aside{
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+}
+a{
+    color: lightgreen;
+}
+a:visited{
+    color: lightgreen;
+}
+
+.topliedjes{
+    padding: 10px;
+}
+aside{
+    padding-bottom: 933px;
+}
+nav{
+    border: 3px solid lightgreen;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 2em;
+}
+nav a{
+    background-color: grey;
+    color: white;
+    margin-left: 40px;
+}
+nav a:visited{
+    color: white;
+}
