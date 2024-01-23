@@ -7,6 +7,7 @@ body{
 header{
     background-repeat: no-repeat;
     background-image: url("../Images/HeaderSpotify.png");
+    background-position: center;
     padding-bottom: 100px;
     height: 100px;
     background-size: cover;
@@ -63,10 +64,7 @@ h2{
     height: 80px;
 
 }
-div:last-of-type{
-    border: 3px solid lightgreen;
-    margin-top: 10px;
-}
+
 .overmij{
     display: flex;
     flex-direction: column;
@@ -92,6 +90,33 @@ nav a{
 }
 nav a:visited{
     color: white;
+}
+
+.nav_container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    gap: 10px 10px;
+    margin-top: 10px;
+}
+.nav_container .blocknav{
+    padding:20px;
+    color: black;
+    font-size: 1em;
+    font-weight:bold;
+    text-align:center;
+}
+.blocknav.blocknav1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.blocknav.blocknav2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 @media screen and (min-width: 1020px){
     .container{

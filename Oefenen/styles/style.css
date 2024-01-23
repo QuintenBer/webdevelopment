@@ -12,6 +12,9 @@ h1{
     background-size: 80px 80px;
     padding-left: 100px;
 }
+nav{
+    text-align: center;
+}
 header{
     padding: 20px;
 }
