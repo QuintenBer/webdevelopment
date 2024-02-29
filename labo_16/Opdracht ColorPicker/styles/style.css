@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
 }
-article{
+section{
     border: 3px solid lightslategray;
     padding: 10px;
     display: flex;
