@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
 }
-section{
+.omliggendeBlok{
     border: 3px solid lightslategray;
     padding: 10px;
     display: flex;
