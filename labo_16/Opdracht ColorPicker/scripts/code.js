@@ -1,16 +1,12 @@
 const setup = () => {
-    let colorDemos=document.getElementsByClassName("colorDemo");
+
     let sliders = document.getElementsByClassName("slider");
 
-
-    sliders[0].addEventListener("change", updateRed);
-    sliders[0].addEventListener("input", updateRed);
-    sliders[1].addEventListener("change", updateGreen);
-    sliders[1].addEventListener("input", updateGreen);
-    sliders[2].addEventListener("change", updateBlue);
-    sliders[2].addEventListener("input", updateBlue);
+for(let i=0; i<sliders.length;i++){
+        sliders[i].addEventListener("change", updateColor);
+        sliders[i].addEventListener("input", updateColor);
+    }
     updateColor();
-
 
 }
 const updateRed = () => {
@@ -32,6 +28,7 @@ const updateBlue = () => {
 
 }
 const updateColor = () =>{
+
     let sliders = document.getElementsByClassName("slider");
     let color = document.getElementsByClassName("color");
     let valueRed=sliders[0].value;
@@ -44,9 +41,6 @@ const updateColor = () =>{
     span[0].textContent = "Rood"+valueRed;
     span[1].textContent = "Groen"+valueGreen;
     span[2].textContent = "Blauw"+valueBlue;
-
-
-
 
 }
 window.addEventListener("load", setup);
