@@ -12,71 +12,71 @@
 <form action="formulierElementen.html" method="post">
     <label for="first_name"> First name*:  </label>
     <input autofocus="autofocus" id="first_name" type="text" name = "first_name" required="required" placeholder="Your first name">
-    <br/>
+    <br>
     <label for="last_name"> Last name*:  </label>
     <input id="last_name" type="text" name = "last_name" required="required" placeholder="Your last name">
-    <br/>
+    <br>
     <p>Which sport do you train?</p>
     <label for="running"> Running </label>
     <input id="running" name="sportCheckbox" type="checkbox" value="running">
-    <br/>
+    <br>
     <label for="swimming"> Swimming </label>
     <input id="swimming" name="sportCheckbox" type="checkbox" value="swimming">
-    <br/>
+    <br>
     <label for="rowing"> Rowing </label>
     <input id="rowing" name="sportCheckbox" type="checkbox" value="rowing">
-    <br/>
+    <br>
     <p>What is your gender?</p>
     <input id="male" name="genderRadioButton" value="male" type="radio">
     <label for="male"> Male </label>
-    <br/>
+    <br>
     <input id="female" name="genderRadioButton" value="female" type="radio">
     <label for="female"> Male </label>
-    <br/>
+    <br>
     <label for="favoriteMovie"> Favorite movie: </label>
     <input type="text" name="favoriteMovie" id="favoriteMovie">
-    <br/>
+    <br>
     <label for="favoriteQuote"> Favorite Quote: </label>
     <input type="text" name="favoriteQuote" id="favoriteQuote" placeholder="Write your favorite quote">
-    <br/>
+    <br>
     <label for="password"> Password*:  </label>
     <input id="password" type="text" name = "password" required="required" >
-    <br/>
+    <br>
     <label for="favoriteFood"> Favorite food:  </label>
-    <input list="favoriteFood" name="favoriteFood" >
-    <datalist id="favoriteFood">
+    <input list="favoriteFood" id=favoriteFood name="favoriteFood" >
+    <datalist id="keuzesFavoriteFood">
         <option value="Hamburger"></option>
         <option value="Pizza"></option>
         <option value="Frietjes"></option>
     </datalist>
-    <br/>
+    <br>
     <input type="file" id="bestandKiezen">
     <label for="bestandKiezen"></label>
-    <br/>
+    <br>
     <label for="emailAdress"> Email adress: </label>
     <input type="email" name="emailAdress" id="emailAdress" placeholder="Enter your email adress">
-    <br/>
+    <br>
     <label for="favoriteSite"> Favorite site: </label>
     <input type="url" name="favoriteQuote" id="favoriteSite" placeholder="Enter the URL of your favorite site">
-    <br/>
+    <br>
     <label for="numberMax10">Favorite number between 1-10:</label>
     <input type="number" name="numberMax10" id="numberMax10" min="0" max="10" step="1">
-    <br/>
+    <br>
     <label for="numberMax1000">Favorite number between 11-1000:</label>
     <input type="range" name="numberMax1000" id="numberMax1000" min="11" max="1000" step="1">
-    <br/>
+    <br>
     <label for="birthday">When were you born?</label>
-    <input type="date" name="birthday" id="birthday" placeholder="Dag/Maand/Jaar">
-    <br/>
+    <input type="date" name="birthday" id="birthday" >
+    <br>
     <label for="zipCode">Belgium zip-coderegnumber*: </label>
     <input type="number" name="zipCode" id="zipCode" placeholder="9999" required="required">
-    <br/>
+    <br>
     <label for="search">Search for something:  </label>
     <input type="search" name="search" id="search" >
-    <br/>
+    <br>
     <label for="color">What is your favorite color?  </label>
     <input type="color" name="color" id="color" >
-    <br/>
+    <br>
     <input type="submit" value="Submit" >
 
 </form>
