@@ -5,6 +5,6 @@
 input.invalid {
 	border : solid 1px red;
 }
-input{
+input, nav{
 	margin-bottom: 10px;
 }

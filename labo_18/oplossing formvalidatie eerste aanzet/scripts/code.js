@@ -72,22 +72,17 @@ const valideerEmail = () => {
 
 	console.log("test uit if");
 	if(!txtEmail.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
-		console.log("tekst in if");
 		txtEmail.className="invalid"; // invalid class instellen
 		errEmail.innerHTML = "geen geldig email adres";
+	}else if (email.length ===0){
+		txtEmail.className="invalid"; // invalid class instellen
+		errEmail.innerHTML = "verplicht veld";
 	}else{
 		txtEmail.className=""; // alle classes verwijderen
 		errEmail.innerHTML = "";
 	}
-
-	if (email.length ===0) {
-		txtEmail.className="invalid"; // invalid class instellen
-		errEmail.innerHTML = "verplicht veld";
-	} else {
-		txtEmail.className=""; // alle classes verwijderen
-		errEmail.innerHTML = "";
-	}
 };
+
 const valideerAantalKinderen = () => {
 	let txtAantalKinderen = document.getElementById("txtAantalKinderen");
 	let errAantalKinderen = document.getElementById("errAantalKinderen");
