@@ -13,7 +13,7 @@ const maakMetSpaties = (inputTekst) =>{
     }
     return result
 }
-
+//trim
 const andereFunctie =() =>{
     let tekst = document.getElementById("tekst").value;
    console.log(maakMetSpaties(tekst));

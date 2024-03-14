@@ -23,7 +23,7 @@ const zoekWoordAnMetLastIndexOf =() =>{
     let tekst = document.getElementById("tekst").value.toLowerCase();
     let stoppen = false;
     let startIndex=tekst.length;
-    let aantal =0;
+    let aantal =0;//
     while(stoppen===false){
         if (tekst.lastIndexOf("an",startIndex)!==-1){
             startIndex = tekst.lastIndexOf("an",startIndex) -1;
