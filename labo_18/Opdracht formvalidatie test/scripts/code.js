@@ -3,7 +3,7 @@ const setup = () => {
     button.addEventListener("click",controleerAlles);
 }
 
-const controleerAlles =() =>{
+const controleerAlles =() =>{//QB
     let voornaam = document.getElementById('first_name').value;
     let familienaamnaam = document.getElementById('last_name');
     let geboortedatum = document.getElementById('geboortedatum');

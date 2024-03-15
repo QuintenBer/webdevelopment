@@ -9,7 +9,7 @@ const geefGemeentes =() =>{
     while(stoppen){
         let invoer = window.prompt('Gemeente: ','stop');
         if (invoer.toLowerCase().localeCompare("stop")===0){
-            stoppen=false;
+            stoppen=false;//QB
         }else{
             eenLijst.push(invoer);
         }

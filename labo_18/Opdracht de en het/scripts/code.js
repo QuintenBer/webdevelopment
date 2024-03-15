@@ -8,7 +8,7 @@ const vervangDeNaarHet = () =>{
     let vervangedeZinElementen =zin.split(" ");
     for (let i =0; i<vervangedeZinElementen.length;i++){
         if(vervangedeZinElementen[i].localeCompare("de")===0){
-            vervangedeZinElementen[i] = "het";
+            vervangedeZinElementen[i] = "het";//QB
         }
     }
     let vervangendeZin= vervangedeZinElementen.join(" ");

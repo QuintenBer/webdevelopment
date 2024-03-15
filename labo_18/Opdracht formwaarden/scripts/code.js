@@ -26,7 +26,7 @@ const toonOutputForm =() =>{
 
     let lijstElementenBuurland = document.getElementById("buurland");
     for(let i =0;i<lijstElementenBuurland.length;i++){
-        if(lijstElementenBuurland[i].selected){
+        if(lijstElementenBuurland[i].selected){//QB
             console.log("favoriete buurland is "+ lijstElementenBuurland[i].value);
         }
     }
