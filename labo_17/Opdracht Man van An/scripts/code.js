@@ -25,11 +25,16 @@ const zoekWoordAnMetLastIndexOf =() =>{
     let startIndex=tekst.length;
     let aantal =0;//
     while(stoppen===false){
+
         if (tekst.lastIndexOf("an",startIndex)!==-1){
             startIndex = tekst.lastIndexOf("an",startIndex) -1;
             aantal = aantal +1;
         }else{
             stoppen =true;
+        }
+        if(tekst.indexOf("an",0)===tekst.lastIndexOf("an",startIndex)){
+            stoppen = true;
+            aantal = aantal +1;
         }
     }
     console.log("Aantal keer an met functie met lastIndexOf: " +aantal);
