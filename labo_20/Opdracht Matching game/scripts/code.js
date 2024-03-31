@@ -186,10 +186,11 @@ const resetSpel = () =>{
         index++;
     }
     let pElementen = document.getElementsByTagName('p');
-    pElementen[0].textContent = 'Aantal fouten: ' + global.AANTAL_FOUTEN;
-    pElementen[1].textContent = 'Aantal paren gevonden: ' + global.AANTAL_PAREN;
     global.AANTAL_PAREN=0;//QB
     global.AANTAL_FOUTEN=0;
+    pElementen[0].textContent = 'Aantal fouten: ' + global.AANTAL_FOUTEN;
+    pElementen[1].textContent = 'Aantal paren gevonden: ' + global.AANTAL_PAREN;
+
     maakKaarten();
 
 
