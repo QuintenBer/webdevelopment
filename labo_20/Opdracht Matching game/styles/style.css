@@ -1,0 +1,29 @@
+.kaarten, #speelveld{
+    border: 1px solid black;
+}
+.kaarten{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+    background-image: url("../images/achterkant.png");
+}
+.gevondenPaar{
+    background-image: none;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.meldingGevonden{
+    border: 4px solid greenyellow;
+}
+.meldingFout{
+    border: 4px solid indianred;
+}
+#speelveld{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
