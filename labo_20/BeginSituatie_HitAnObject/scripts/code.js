@@ -21,10 +21,12 @@ const setup = () => {
 const klik =(event) =>{
     let soortAfbeelding = event.target.getAttribute("src").slice(7,8)
     if(parseInt(soortAfbeelding,10)!==0){
+        clearInterval(global.timeoutId);
         global.score++;
         let hits=document.getElementById("hits");
         hits.textContent="Aantal hits "+global.score;
         veranderElement();
+        global.timeoutId=setInterval(veranderElement,global.MOVE_DELAY);
     }else{
         clearInterval(global.timeoutId);
         window.alert("Game over");
@@ -46,8 +48,8 @@ const veranderElement = ()=>{
     imgElement.setAttribute("src", global.IMAGE_PATH_PREFIX+randomAfbeelding+global.IMAGE_PATH_SUFFIX);
 
 
-    let left=Math.floor((Math.random()*playfield.offsetWidth)-global.IMAGE_SIZE);
-    let top=Math.floor(Math.random()*playfield.offsetHeight-global.IMAGE_SIZE);
+    let left=Math.floor(Math.random()*(playfield.offsetWidth-global.IMAGE_SIZE));
+    let top=Math.floor(Math.random()*(playfield.offsetHeight-global.IMAGE_SIZE));
     imgElement.style.left=left+"px";//position absolute voor die img voor te werken
     imgElement.style.top=top+"px";
 }
