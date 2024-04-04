@@ -69,7 +69,7 @@ const draaiKaarten =(event) =>{
                     global.KAART2.classList.add('meldingGevonden');
 
 
-                    setTimeout(kaartGevonden, 2000);//QB
+                    setTimeout(kaartGevonden, 2100);//QB
                     setTimeout(verwijderMeldingGevonden, 2100);
 
                 } else {
@@ -77,7 +77,7 @@ const draaiKaarten =(event) =>{
                     global.KAART1.classList.add('meldingFout');
                     global.KAART2.classList.add('meldingFout');
 
-                    setTimeout(plaatsKaartenTerugAchterkant, 2000);
+                    setTimeout(plaatsKaartenTerugAchterkant, 2100);
                     setTimeout(verwijderMeldingFout, 2100);
                 }
 
