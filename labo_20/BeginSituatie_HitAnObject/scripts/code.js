@@ -15,7 +15,6 @@ const setup = () => {
     let imgElement = document.getElementById("afbeelding")
 
     imgElement.addEventListener("click", klik);
-
 };
 
 const klik =(event) =>{
