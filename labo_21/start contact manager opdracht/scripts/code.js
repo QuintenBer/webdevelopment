@@ -20,13 +20,11 @@ let personen = [{
         aantalKinderen: 2
     }];
 
-// Event listener (btnBewaar click)
 
-// Bewaar de wijzigingen die in de user interface werden aangebracht
 const bewaarBewerktePersoon = () => {
     console.log("Klik op de knop bewaar");
 
-    // valideer alle input data en controleer of er geen errors meer zijn
+
     valideer();
     let lstPersonen = document.getElementById("lstPersonen");
     console.log(lstPersonen.selectedIndex)
@@ -38,7 +36,7 @@ const bewaarBewerktePersoon = () => {
 
 
     if(lstPersonen.selectedIndex===-1){
-    // indien ok, bewaar de ingegeven data.
+
     if (zijnErErrors()===false) {
         let maakOption = document.createElement("option");
 
@@ -72,17 +70,14 @@ const bewaarBewerktePersoon = () => {
     }
 
 
-        // een nieuw aangemaakte persoon voegen we toe
-        // een bestaande persoon in de lijst passen we aan
 
-    // zorg ervoor dat de naam en voornaam ook aangepast en/of zichtbaar zijn in de lijst na updaten
 };//QB
 
-// Event listener (btnNieuw click)
+
 const bewerkNieuwePersoon = () => {
     console.log("Klik op de knop nieuw");
 
-    // Zet de user interface klaar om de gegevens van een nieuwe persoon in te voeren
+
 
     let voornaam = document.getElementById("txtVoornaam");
     let familienaam = document.getElementById('txtFamilienaam');
@@ -115,7 +110,7 @@ const zijnErErrors = () =>{
 
 
 
-// onze setup functie die de event listeners registreert
+
 const setup = () => {
 
     let btnBewaar = document.getElementById("btnBewaar");
@@ -126,9 +121,9 @@ const setup = () => {
 
     let lstPersonen = document.getElementById("lstPersonen");
 
-    // voeg een change listener toe aan lstPersonen. Bij het klikken op een option element in de lijst
+
     lstPersonen.addEventListener("change",change)
-    // moet de data van die persoon getoond worden in het formulier
+
     plaatsStaandaardSituatie();
 };
 const plaatsStaandaardSituatie = () =>{
