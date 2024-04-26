@@ -4,7 +4,7 @@ let global={
 }
 
 const setup = () => {
-    console.log("test")
+    
     let arrayRGBWaarden = JSON.parse(localStorage.getItem("favorieten.divs"));
     if(arrayRGBWaarden!==null){
         veranderLaatsteGeselecteerdKleurOp()
