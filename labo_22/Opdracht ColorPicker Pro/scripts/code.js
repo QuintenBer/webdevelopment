@@ -70,7 +70,7 @@ const haalKleurOpDatMomenteelGeselecteerdIs =() =>{
     let stringVanRGBWaardenLaatsteGeselecteerd = JSON.stringify(arrayKleuren);
 
 
-    localStorage.removeItem("laatsteWaarden.geselecteerd");
+    //localStorage.removeItem("laatsteWaarden.geselecteerd");
     localStorage.setItem("laatsteWaarden.geselecteerd",stringVanRGBWaardenLaatsteGeselecteerd );
 
 }
