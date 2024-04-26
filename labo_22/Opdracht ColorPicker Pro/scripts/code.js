@@ -4,6 +4,8 @@ let global={
 }
 
 const setup = () => {
+    console.log("test")
+    let arrayRGBWaarden = JSON.parse(localStorage.getItem("favorieten.divs"));
     if(arrayRGBWaarden!==null){
         veranderLaatsteGeselecteerdKleurOp()
     }
@@ -18,7 +20,7 @@ for(let i=0; i<sliders.length;i++){
         sliders[i].addEventListener("input", updateColor);
     }
     updateColor();
-    let arrayRGBWaarden = JSON.parse(localStorage.getItem("favorieten.divs"));
+
 
     if (arrayRGBWaarden!==null){
         haalLocaleFavorieteKleurenOp();
