@@ -4,7 +4,10 @@ let global={
 }
 
 const setup = () => {
-    veranderLaatsteGeselecteerdKleurOp()
+    if(arrayRGBWaarden!==null){
+        veranderLaatsteGeselecteerdKleurOp()
+    }
+
     //localStorage.clear();
     let sliders = document.getElementsByClassName("slider");
     let saveButton = document.querySelector('#saveButton');
