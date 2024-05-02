@@ -38,7 +38,7 @@ const zoekBalk = () =>{
         if (inputTekst.slice(0, 1).localeCompare("/") === 0) {
             let command = inputTekst.slice(1, 2);
             let arrayWoorden = inputTekst.slice(3).split(" ");
-            console.log(arrayWoorden)
+
 
             let url = "";
             let knownCommandPrefix = true;
@@ -62,13 +62,13 @@ const zoekBalk = () =>{
                     url = "https://www.youtube.com/results?search_query="
                     for (let i = 0; i < arrayWoorden.length; i++) {
                         if (i === 0) {
-                            console.log(arrayWoorden[i])
+
                             url = url + arrayWoorden[i];
                         } else {
                             url = url + "+" + arrayWoorden[i];
                         }
                     }
-                    console.log(url)
+
                     soortCommand="Youtube";
                     window.open(url).focus();
 
