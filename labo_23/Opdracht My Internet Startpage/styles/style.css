@@ -1,0 +1,51 @@
+.card{
+    border: 1px solid black;
+    margin:10px;
+
+}
+
+div.Youtube{
+    background-color:#ff0000 ;
+}
+div.X{
+    background-color: #1da1f2;
+}
+div.Google{
+    background-color:#4285f4 ;
+}
+div.Instagram{
+    background-color:#c32aa3 ;
+}
+.card-body .row .col h3, .card-body .row .col p,.card-body .row .col input{
+color: white;
+}
+.Youtube .card-body .row .col input{
+    background-color:black ;
+}
+.X .card-body .row .col input{
+    background-color: black;
+}
+ .Google .card-body .row .col input{
+    background-color: red;
+     color: yellow;
+}
+.Instagram .card-body .row .col input{
+    background-color: orange;
+    color: yellow;
+}
+
+p:nth-of-type(2){
+    color: grey;
+    font-size: 0.8em;
+}
+#goButton{
+    background-color:lightgreen ;
+    border: 1px solid limegreen;
+    width: 95%;
+}
+#inputfield{
+    width: 95%;
+}
+h1,.statischDeel,#inputfield, #goButton, h2{
+    margin-left: 20px;
+}
